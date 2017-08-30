@@ -7,8 +7,8 @@
 using namespace std;
 int main()
 {
-	int a, b, c, g;
-	int D, x, y;
+	int a, b, c, none; // Fst lib
+	int D, x, y; // nxt lib
 	cout << "Welcome to the Quadratic Equation!" << endl;
 	cout << "Coded by ZeNyX" << endl;
 	cout << "Please enter A type - " << endl;
@@ -21,7 +21,7 @@ int main()
 	cout << "A - " << a << endl;
 	cout << "B - " << b << endl;
 	cout << "C - " << c << endl;
-	D = b ^ 2 - 4 * a*c;
+	D = b ^ 2 - 4 * a*c; // func
 	if (D > 0) {
 		cout << "Your Discriminant is - " << D << endl;
 	}
@@ -36,8 +36,10 @@ int main()
 		int x1, x2;
 		x1 = (-b + sqrt(D)) / 2 * a;
 		cout << "x1 = " << x1 << endl;
+		x2 = (-b - sqrt(D)) / 2 * a;
 		cout << "x2 = " << x2 << endl;
-		cin >> g;
+		cout << "Please push any key & press ENTER to close...";
+		cin >> none;
     return 0;
 }
 
