@@ -8,6 +8,7 @@ using namespace std;
 int main()
 {
 	int a, b, c, g;
+	int D, x, y;
 	cout << "Welcome to the Quadratic Equation!" << endl;
 	cout << "Please enter A type - " << endl;
 	cin >> a;
@@ -19,6 +20,8 @@ int main()
 		cout << "A - " << a << endl;
 		cout << "B - " << b << endl;
 		cout << "C - " << c << endl;
+		D = b^2-4*a*c;
+		cout << D;
 		cin >> g;
     return 0;
 }

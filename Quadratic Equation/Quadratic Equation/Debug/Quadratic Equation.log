@@ -1,3 +1,5 @@
 ﻿  Quadratic Equation.cpp
+d:\work space\qe\quadratic equation\quadratic equation\quadratic equation.cpp(11): warning C4101: y: неиспользованная локальная переменная
+d:\work space\qe\quadratic equation\quadratic equation\quadratic equation.cpp(11): warning C4101: x: неиспользованная локальная переменная
   Quadratic Equation.vcxproj -> D:\Work space\QE\Quadratic Equation\Debug\Quadratic Equation.exe
   Quadratic Equation.vcxproj -> D:\Work space\QE\Quadratic Equation\Debug\Quadratic Equation.pdb (Partial PDB)
