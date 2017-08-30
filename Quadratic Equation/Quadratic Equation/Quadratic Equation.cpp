@@ -43,12 +43,11 @@ int main()
 		cout << "x2 = " << xx << endl;
 	}
 	if (D < 0) {
-		cout << "Your Discriminant is - " << D;
-	cout << "No roots!";
+		cout << "Your Discriminant is - " << D << endl;
+		cout << "No roots!" << endl;
 }
 		cout << "Please push any key & press ENTER to close...";
 		cin >> none;
-
     return 0;
 }
 
