@@ -10,7 +10,7 @@ int main()
 	int a, b, c, g;
 	int D, x, y;
 	cout << "Welcome to the Quadratic Equation!" << endl;
-	cout << "Coded by ShadoW";
+	cout << "Coded by ZeNyX" << endl;
 	cout << "Please enter A type - " << endl;
 	cin >> a;
 	cout << a << endl;
@@ -23,17 +23,20 @@ int main()
 	cout << "C - " << c << endl;
 	D = b ^ 2 - 4 * a*c;
 	if (D > 0) {
-		cout << "Your Discriminant is - " << D;
+		cout << "Your Discriminant is - " << D << endl;
 	}
 	if (D = 0) {
-		cout << "D - " << D << endl;
-		cout << "You equation <= 0!";
+		cout << "Your Discriminant is - " << D << endl;
+		cout << "You equation have one root!" << endl;
 	}
-	else {
-		cout << "D - " << D;
+	if (D < 0) {
+		cout << "Your Discriminant is - " << D;
 	cout << "No roots!";
 }
 		int x1, x2;
+		x1 = (-b + sqrt(D)) / 2 * a;
+		cout << "x1 = " << x1 << endl;
+		cout << "x2 = " << x2 << endl;
 		cin >> g;
     return 0;
 }
